@@ -19,17 +19,9 @@ class MainActivity2 : AppCompatActivity() {
         imageView = findViewById(R.id.imagesview)
         imageButton = findViewById(R.id.btnnazad)
 
+        val image = intent.getIntExtra("IMAGESS", 0)
+        imageView.setImageResource(image)
 
-        val number = intent.getIntExtra("NUMBER", 0 )
-        if(number == 1){
-            imageView.setImageResource(R.drawable.images1)
-        }else if(number == 2){
-            imageView.setImageResource(R.drawable.images2)
-        }else if(number == 3){
-            imageView.setImageResource(R.drawable.images3)
-        }else {
-            Toast.makeText(this,"ERROR",Toast.LENGTH_SHORT).show()
-        }
         imageButton.setOnClickListener {
             onBackPressed()
         }
