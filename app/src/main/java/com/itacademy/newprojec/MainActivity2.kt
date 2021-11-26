@@ -17,7 +17,8 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
 
         imageView = findViewById(R.id.imagesview)
-        imageButton = findViewById(R.id.btnknopka)
+        imageButton = findViewById(R.id.btnnazad)
+
 
         val number = intent.getIntExtra("NUMBER", 0 )
         if(number == 1){
@@ -28,6 +29,9 @@ class MainActivity2 : AppCompatActivity() {
             imageView.setImageResource(R.drawable.images3)
         }else {
             Toast.makeText(this,"ERROR",Toast.LENGTH_SHORT).show()
+        }
+        imageButton.setOnClickListener {
+            onBackPressed()
         }
     }
 }

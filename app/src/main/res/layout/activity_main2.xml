@@ -10,7 +10,7 @@
 
 
     <ImageButton
-        android:id="@+id/btnknopka"
+        android:id="@+id/btnnazad"
         android:background="@drawable/nazad"
         android:layout_width="45dp"
         android:layout_height="45dp"

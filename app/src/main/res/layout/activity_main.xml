@@ -12,7 +12,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Введите текст"
+        android:hint="Выберите картинку"
         android:textColor="@color/blue"
         android:layout_marginTop="50dp"/>
 

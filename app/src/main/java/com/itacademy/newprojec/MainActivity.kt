@@ -28,6 +28,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,MainActivity2::class.java)
             intent.putExtra("NUMBER", number)
             startActivity(intent)
-            }
         }
+    }
 }
