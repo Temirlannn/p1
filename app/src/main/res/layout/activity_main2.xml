@@ -11,7 +11,7 @@
 
     <ImageButton
         android:id="@+id/btnnazad"
-        android:background="@drawable/nazad"
+        android:background="@drawable/ic_na"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_margin="16dp"/>
